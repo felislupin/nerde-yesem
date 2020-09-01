@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class ListRestaurantsTableViewCell: UITableViewCell {
     @IBOutlet weak var backgroundImage: UIImageView!
@@ -21,7 +22,13 @@ class ListRestaurantsTableViewCell: UITableViewCell {
     }
     
     public func setCell(model: RestaurantModel) {
-        
+        self.cuisinesLabel.text = model.cuisines
+        self.restaurantNameLabel.text = model.name
+        self.localityVerboseLabel.text = model.location.locality_verbose
+        self.restaurantsVoteLabel.text = "Restaurant voted \(model.user_rating.votes) times"
+        if model.featured_image != "" {
+            backgroundImage.kf.setImage(with: URL(string:  model.featured_image))
+        }
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

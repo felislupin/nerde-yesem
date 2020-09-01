@@ -17,7 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().titleTextAttributes = [
+            NSAttributedString.Key.font: UIFont(name: "Montserrat-Bold", size: 25)! ,
+            NSAttributedString.Key.foregroundColor: NerdeYesemColors.textDarkColor()] as [NSAttributedString.Key: Any]
 
+        UINavigationBar.appearance().tintColor = UIColor.red
+
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "Montserrat-Bold", size: 10)!], for: .normal)
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "Montserrat-Bold", size: 10)!], for: .selected)
+
+        // For navigation items
+        UIBarButtonItem.appearance().setTitleTextAttributes([.font: UIFont(name: "Montserrat-Medium", size: 14.0)!], for: .normal)
+        UIBarButtonItem.appearance().setTitleTextAttributes([.font: UIFont(name: "Montserrat-Medium", size: 14.0)!], for: .highlighted)
         
         return true
     }

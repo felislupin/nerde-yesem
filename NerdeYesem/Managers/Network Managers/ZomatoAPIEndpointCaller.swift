@@ -17,7 +17,7 @@ class ZomatoAPIEndpointCaller  {
     func fetchNeariestRestaurants(lat: Double, long: Double, onSuccess: @escaping (SearchRestaurantsResponseModel) -> Void, onError: @escaping (String) -> Void) {
         APIManager.shared.setBaseURL(baseURL)
         let headers = [["user-key": apiKey]]
-        APIManager.shared.get(path: "search?entity_type=group&count=10&lat=\(lat)&lon=\(long)&radius=1000&sort=real_distance&order=desc", headers: headers, params: nil, success: { (data) in
+        APIManager.shared.get(path: "search?entity_type=group&count=5&lat=\(lat)&lon=\(long)&radius=1000&sort=real_distance&order=desc", headers: headers, params: nil, success: { (data) in
             do {
                 let decoder = JSONDecoder()
                 let response = try decoder.decode(SearchRestaurantsResponseModel.self, from: data)

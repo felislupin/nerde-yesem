@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class HomeViewController: TabsViewController {
     
     
@@ -21,6 +22,7 @@ class HomeViewController: TabsViewController {
     }
 
     override func viewDidLoad() {
+       
         title = "NERDE YESEM"
         setPages()
 

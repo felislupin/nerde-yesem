@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,11 @@
 		3C59DC5524FD1E3B0024FF6D /* ListRestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59DC5324FD1E3B0024FF6D /* ListRestaurantsTableViewCell.swift */; };
 		3C59DC5624FD1E3B0024FF6D /* ListRestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C59DC5424FD1E3B0024FF6D /* ListRestaurantsTableViewCell.xib */; };
 		3C64B83824F9967A00B3F4BF /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C64B83724F9967A00B3F4BF /* UIView+Additions.swift */; };
+		3C73923F24FE10D70047591C /* NerdeYesemBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73923E24FE10D70047591C /* NerdeYesemBaseViewController.swift */; };
+		3C73924124FE1D2F0047591C /* foodImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C73924024FE1D2F0047591C /* foodImage.png */; };
+		3C73924324FE1E8E0047591C /* foodBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C73924224FE1E8E0047591C /* foodBackgroundImage.png */; };
+		3C73924524FE3EB70047591C /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73924424FE3EB70047591C /* RestaurantDetailViewController.swift */; };
+		3C73924724FE609C0047591C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73924624FE609C0047591C /* LoginViewController.swift */; };
 		3C79D21B24FC1CF300F04CE0 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D21A24FC1CF300F04CE0 /* RestaurantModel.swift */; };
 		3C79D21D24FC43BF00F04CE0 /* ZomatoAPIEndpointCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D21C24FC43BF00F04CE0 /* ZomatoAPIEndpointCaller.swift */; };
 		3C79D22024FC48AA00F04CE0 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D21F24FC48AA00F04CE0 /* TabsViewController.swift */; };
@@ -66,6 +71,11 @@
 		3C59DC5324FD1E3B0024FF6D /* ListRestaurantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRestaurantsTableViewCell.swift; sourceTree = "<group>"; };
 		3C59DC5424FD1E3B0024FF6D /* ListRestaurantsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRestaurantsTableViewCell.xib; sourceTree = "<group>"; };
 		3C64B83724F9967A00B3F4BF /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		3C73923E24FE10D70047591C /* NerdeYesemBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerdeYesemBaseViewController.swift; sourceTree = "<group>"; };
+		3C73924024FE1D2F0047591C /* foodImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodImage.png; sourceTree = "<group>"; };
+		3C73924224FE1E8E0047591C /* foodBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodBackgroundImage.png; sourceTree = "<group>"; };
+		3C73924424FE3EB70047591C /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		3C73924624FE609C0047591C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3C79D21A24FC1CF300F04CE0 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
 		3C79D21C24FC43BF00F04CE0 /* ZomatoAPIEndpointCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZomatoAPIEndpointCaller.swift; sourceTree = "<group>"; };
 		3C79D21F24FC48AA00F04CE0 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
@@ -246,6 +256,8 @@
 			isa = PBXGroup;
 			children = (
 				3C28ED0B24F947B600559D72 /* Assets.xcassets */,
+				3C73924224FE1E8E0047591C /* foodBackgroundImage.png */,
+				3C73924024FE1D2F0047591C /* foodImage.png */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -264,6 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				3C79D21F24FC48AA00F04CE0 /* TabsViewController.swift */,
+				3C73923E24FE10D70047591C /* NerdeYesemBaseViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				3C79D24D24FC548D00F04CE0 /* HomeViewController.swift */,
+				3C73924624FE609C0047591C /* LoginViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -289,6 +303,7 @@
 			children = (
 				3C79D25324FC58E000F04CE0 /* ListRestaurantsViewController.swift */,
 				3C79D25524FC5A3000F04CE0 /* FavoriteViewController.swift */,
+				3C73924424FE3EB70047591C /* RestaurantDetailViewController.swift */,
 			);
 			path = Restaurants;
 			sourceTree = "<group>";
@@ -299,7 +314,6 @@
 				8FDA983009DE47F81EA23235 /* Pods-NerdeYesem.debug.xcconfig */,
 				1055049CD11872ECA29482F7 /* Pods-NerdeYesem.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -390,9 +404,11 @@
 				3C79D24A24FC528200F04CE0 /* Montserrat-Italic.ttf in Resources */,
 				3C79D24124FC528200F04CE0 /* Montserrat-Bold.ttf in Resources */,
 				3C59DC5624FD1E3B0024FF6D /* ListRestaurantsTableViewCell.xib in Resources */,
+				3C73924124FE1D2F0047591C /* foodImage.png in Resources */,
 				3C79D24224FC528200F04CE0 /* Montserrat-MediumItalic.ttf in Resources */,
 				3C28ED0724F947B000559D72 /* Main.storyboard in Resources */,
 				3C79D24824FC528200F04CE0 /* Montserrat-Black.ttf in Resources */,
+				3C73924324FE1E8E0047591C /* foodBackgroundImage.png in Resources */,
 				3C79D24C24FC528200F04CE0 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,6 +466,7 @@
 				3C79D21D24FC43BF00F04CE0 /* ZomatoAPIEndpointCaller.swift in Sources */,
 				3C59DC5124FCFB6E0024FF6D /* NSNotificationName+Additions.swift in Sources */,
 				3C64B83824F9967A00B3F4BF /* UIView+Additions.swift in Sources */,
+				3C73924724FE609C0047591C /* LoginViewController.swift in Sources */,
 				3C28ED0A24F947B000559D72 /* NerdeYesem.xcdatamodeld in Sources */,
 				3C2714A124F9C6F10032F027 /* APIManager.swift in Sources */,
 				3C79D22024FC48AA00F04CE0 /* TabsViewController.swift in Sources */,
@@ -459,8 +476,10 @@
 				3C79D22424FC4BD000F04CE0 /* NerdeYesemColors.swift in Sources */,
 				3C79D21B24FC1CF300F04CE0 /* RestaurantModel.swift in Sources */,
 				3C59DC4C24FCD3370024FF6D /* UIFont.swift in Sources */,
+				3C73923F24FE10D70047591C /* NerdeYesemBaseViewController.swift in Sources */,
 				3C79D25624FC5A3000F04CE0 /* FavoriteViewController.swift in Sources */,
 				3C28ED0224F947B000559D72 /* SceneDelegate.swift in Sources */,
+				3C73924524FE3EB70047591C /* RestaurantDetailViewController.swift in Sources */,
 				3C59DC4624FCAB050024FF6D /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

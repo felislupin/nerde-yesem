@@ -39,6 +39,7 @@ struct RestaurantModel: Codable {
     var cuisines: String
     var has_online_delivery: Int
     var featured_image: String
+    var timings: String
 }
 
 struct RestaurantArrayModel: Codable {
