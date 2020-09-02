@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.ttf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-BoldItalic.ttf">
+            <string>Montserrat-BoldItalic</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ListRestaurantsTableViewCell" rowHeight="140" id="KGk-i7-Jjw" customClass="ListRestaurantsTableViewCell" customModule="NerdeYesem" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="429" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="429" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p9p-4H-I32">
+                        <rect key="frame" x="20" y="5" width="404" height="140"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foodBackgroundImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ozy-ah-dqw" userLabel="baackgroundImage">
+                                <rect key="frame" x="20" y="20" width="364" height="100"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6i-fD-Nyd" userLabel="cuisines">
+                                <rect key="frame" x="29" y="73" width="335" height="15"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="15" id="vyy-zX-Kfo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESTORANT ADI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNh-YO-j3k">
+                                <rect key="frame" x="30" y="30" width="138" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="cUA-bO-M7H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adres" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r1l-60-F4r" userLabel="localityVerbose">
+                                <rect key="frame" x="29" y="92" width="40.5" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="PyC-Xy-vCF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qP-ex-YuZ" userLabel="voted">
+                                <rect key="frame" x="343" y="5" width="41" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="Nn9-NB-zdd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-BoldItalic" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Ozy-ah-dqw" firstAttribute="leading" secondItem="p9p-4H-I32" secondAttribute="leading" constant="20" id="0QD-a5-Vxy"/>
+                            <constraint firstAttribute="trailing" secondItem="J6i-fD-Nyd" secondAttribute="trailing" constant="40" id="8Rp-dt-SQw"/>
+                            <constraint firstItem="8qP-ex-YuZ" firstAttribute="top" secondItem="p9p-4H-I32" secondAttribute="top" constant="5" id="ACW-qI-4L6"/>
+                            <constraint firstItem="Ozy-ah-dqw" firstAttribute="top" secondItem="p9p-4H-I32" secondAttribute="top" constant="20" id="BsH-hk-afZ"/>
+                            <constraint firstItem="zNh-YO-j3k" firstAttribute="leading" secondItem="p9p-4H-I32" secondAttribute="leading" constant="30" id="Khc-20-EE2"/>
+                            <constraint firstItem="zNh-YO-j3k" firstAttribute="top" secondItem="p9p-4H-I32" secondAttribute="top" constant="30" id="O5R-Yh-Ktw"/>
+                            <constraint firstAttribute="bottom" secondItem="Ozy-ah-dqw" secondAttribute="bottom" constant="20" id="USX-53-1hD"/>
+                            <constraint firstItem="r1l-60-F4r" firstAttribute="top" secondItem="J6i-fD-Nyd" secondAttribute="bottom" constant="4" id="W4u-Cv-h97"/>
+                            <constraint firstItem="r1l-60-F4r" firstAttribute="leading" secondItem="p9p-4H-I32" secondAttribute="leading" constant="29" id="gvJ-hv-luk"/>
+                            <constraint firstAttribute="trailing" secondItem="Ozy-ah-dqw" secondAttribute="trailing" constant="20" id="ntf-ae-rdJ"/>
+                            <constraint firstItem="8qP-ex-YuZ" firstAttribute="trailing" secondItem="Ozy-ah-dqw" secondAttribute="trailing" id="pHB-9D-JBL"/>
+                            <constraint firstItem="J6i-fD-Nyd" firstAttribute="top" secondItem="zNh-YO-j3k" secondAttribute="bottom" constant="8" id="pdF-b3-iL9"/>
+                            <constraint firstItem="J6i-fD-Nyd" firstAttribute="leading" secondItem="p9p-4H-I32" secondAttribute="leading" constant="29" id="swC-sw-IuG"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" red="0.7843137255" green="0.062745098040000002" blue="0.062745098040000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="p9p-4H-I32" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="BeG-tC-ZVD"/>
+                    <constraint firstAttribute="trailing" secondItem="p9p-4H-I32" secondAttribute="trailing" constant="5" id="DPD-XC-QeK"/>
+                    <constraint firstAttribute="bottom" secondItem="p9p-4H-I32" secondAttribute="bottom" constant="5" id="VXl-dS-IIf"/>
+                    <constraint firstItem="p9p-4H-I32" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="p2f-tD-elh"/>
+                </constraints>
+                <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                        <real key="value" value="0.0"/>
+                    </userDefinedRuntimeAttribute>
+                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </userDefinedRuntimeAttribute>
+                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                        <real key="value" value="0.0"/>
+                    </userDefinedRuntimeAttribute>
+                </userDefinedRuntimeAttributes>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="backgroundImage" destination="Ozy-ah-dqw" id="b3s-MX-diK"/>
+                <outlet property="cuisinesLabel" destination="J6i-fD-Nyd" id="lvv-T6-2o0"/>
+                <outlet property="localityVerboseLabel" destination="r1l-60-F4r" id="mDC-mG-yih"/>
+                <outlet property="restaurantNameLabel" destination="zNh-YO-j3k" id="ceC-Oe-t0W"/>
+                <outlet property="restaurantsVoteLabel" destination="8qP-ex-YuZ" id="Rh9-pE-jyR"/>
+            </connections>
+            <point key="canvasLocation" x="216.66666666666669" y="131.91964285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="foodBackgroundImage.png" width="275" height="183"/>
+    </resources>
+</document>

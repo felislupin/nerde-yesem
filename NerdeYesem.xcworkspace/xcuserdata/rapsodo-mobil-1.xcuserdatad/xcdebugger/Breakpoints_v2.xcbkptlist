@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3F7BBAF1-14AE-404B-8652-25CB56635F71"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FFE87DBF-7955-4511-86BC-DB4A89CDED69"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NerdeYesem/Modules/Restaurants/ListRestaurantsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "setData(lat:long:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FFE87DBF-7955-4511-86BC-DB4A89CDED69 - 3f5ceaab36e210d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NerdeYesem.ListRestaurantsViewController.(setData in _0F3BDDDA30B9A0DD93EC5202CE762044)(lat: Swift.Double, long: Swift.Double) -&gt; ()"
+                  moduleName = "NerdeYesem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rapsodo-mobil-1/Desktop/nerde-yesem/NerdeYesem/Modules/Restaurants/ListRestaurantsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "FFE87DBF-7955-4511-86BC-DB4A89CDED69 - c925c59f37491685"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (NerdeYesem.SearchRestaurantsResponseModel) -&gt; () in NerdeYesem.ListRestaurantsViewController.(setData in _0F3BDDDA30B9A0DD93EC5202CE762044)(lat: Swift.Double, long: Swift.Double) -&gt; ()"
+                  moduleName = "NerdeYesem"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rapsodo-mobil-1/Desktop/nerde-yesem/NerdeYesem/Modules/Restaurants/ListRestaurantsViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57C23BD3-2ED3-4CD8-9C4D-6DBC20F62889"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NerdeYesem/Modules/Home/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "goHomeView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -3,20 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2714A124F9C6F10032F027 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2714A024F9C6F10032F027 /* APIManager.swift */; };
 		3C28ED0024F947B000559D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28ECFF24F947B000559D72 /* AppDelegate.swift */; };
 		3C28ED0224F947B000559D72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C28ED0124F947B000559D72 /* SceneDelegate.swift */; };
 		3C28ED0724F947B000559D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C28ED0524F947B000559D72 /* Main.storyboard */; };
 		3C28ED0A24F947B000559D72 /* NerdeYesem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C28ED0824F947B000559D72 /* NerdeYesem.xcdatamodeld */; };
 		3C28ED0C24F947B600559D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C28ED0B24F947B600559D72 /* Assets.xcassets */; };
 		3C28ED0F24F947B600559D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C28ED0D24F947B600559D72 /* LaunchScreen.storyboard */; };
+		3C59DC4624FCAB050024FF6D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59DC4524FCAB050024FF6D /* LocationManager.swift */; };
+		3C59DC4C24FCD3370024FF6D /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59DC4B24FCD3370024FF6D /* UIFont.swift */; };
+		3C59DC5124FCFB6E0024FF6D /* NSNotificationName+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59DC5024FCFB6D0024FF6D /* NSNotificationName+Additions.swift */; };
+		3C59DC5524FD1E3B0024FF6D /* ListRestaurantsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C59DC5324FD1E3B0024FF6D /* ListRestaurantsTableViewCell.swift */; };
+		3C59DC5624FD1E3B0024FF6D /* ListRestaurantsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C59DC5424FD1E3B0024FF6D /* ListRestaurantsTableViewCell.xib */; };
 		3C64B83824F9967A00B3F4BF /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C64B83724F9967A00B3F4BF /* UIView+Additions.swift */; };
+		3C73923F24FE10D70047591C /* NerdeYesemBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73923E24FE10D70047591C /* NerdeYesemBaseViewController.swift */; };
+		3C73924124FE1D2F0047591C /* foodImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C73924024FE1D2F0047591C /* foodImage.png */; };
+		3C73924324FE1E8E0047591C /* foodBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C73924224FE1E8E0047591C /* foodBackgroundImage.png */; };
+		3C73924524FE3EB70047591C /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73924424FE3EB70047591C /* RestaurantDetailViewController.swift */; };
+		3C73924724FE609C0047591C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C73924624FE609C0047591C /* LoginViewController.swift */; };
+		3C79D21B24FC1CF300F04CE0 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D21A24FC1CF300F04CE0 /* RestaurantModel.swift */; };
+		3C79D21D24FC43BF00F04CE0 /* ZomatoAPIEndpointCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D21C24FC43BF00F04CE0 /* ZomatoAPIEndpointCaller.swift */; };
+		3C79D22024FC48AA00F04CE0 /* TabsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D21F24FC48AA00F04CE0 /* TabsViewController.swift */; };
+		3C79D22424FC4BD000F04CE0 /* NerdeYesemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D22324FC4BD000F04CE0 /* NerdeYesemColors.swift */; };
+		3C79D23A24FC528200F04CE0 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D22724FC528200F04CE0 /* Montserrat-LightItalic.ttf */; };
+		3C79D23B24FC528200F04CE0 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D22824FC528200F04CE0 /* Montserrat-Medium.ttf */; };
+		3C79D23C24FC528200F04CE0 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D22924FC528200F04CE0 /* Montserrat-BoldItalic.ttf */; };
+		3C79D23D24FC528200F04CE0 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D22A24FC528200F04CE0 /* Montserrat-Light.ttf */; };
+		3C79D23E24FC528200F04CE0 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D22B24FC528200F04CE0 /* Montserrat-ThinItalic.ttf */; };
+		3C79D23F24FC528200F04CE0 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D22C24FC528200F04CE0 /* Montserrat-ExtraLight.ttf */; };
+		3C79D24024FC528200F04CE0 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D22D24FC528200F04CE0 /* Montserrat-Thin.ttf */; };
+		3C79D24124FC528200F04CE0 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D22E24FC528200F04CE0 /* Montserrat-Bold.ttf */; };
+		3C79D24224FC528200F04CE0 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D22F24FC528200F04CE0 /* Montserrat-MediumItalic.ttf */; };
+		3C79D24324FC528200F04CE0 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D23024FC528200F04CE0 /* Montserrat-BlackItalic.ttf */; };
+		3C79D24424FC528200F04CE0 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D23124FC528200F04CE0 /* Montserrat-SemiBold.ttf */; };
+		3C79D24524FC528200F04CE0 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D23224FC528200F04CE0 /* Montserrat-ExtraLightItalic.ttf */; };
+		3C79D24624FC528200F04CE0 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D23324FC528200F04CE0 /* Montserrat-ExtraBold.ttf */; };
+		3C79D24824FC528200F04CE0 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D23524FC528200F04CE0 /* Montserrat-Black.ttf */; };
+		3C79D24924FC528200F04CE0 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D23624FC528200F04CE0 /* Montserrat-Regular.ttf */; };
+		3C79D24A24FC528200F04CE0 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D23724FC528200F04CE0 /* Montserrat-Italic.ttf */; };
+		3C79D24B24FC528200F04CE0 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D23824FC528200F04CE0 /* Montserrat-SemiBoldItalic.ttf */; };
+		3C79D24C24FC528200F04CE0 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D23924FC528200F04CE0 /* Montserrat-ExtraBoldItalic.ttf */; };
+		3C79D24E24FC548D00F04CE0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D24D24FC548D00F04CE0 /* HomeViewController.swift */; };
+		3C79D25024FC55F500F04CE0 /* Restaurants.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C79D24F24FC55F500F04CE0 /* Restaurants.storyboard */; };
+		3C79D25424FC58E000F04CE0 /* ListRestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D25324FC58E000F04CE0 /* ListRestaurantsViewController.swift */; };
+		3C79D25624FC5A3000F04CE0 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D25524FC5A3000F04CE0 /* FavoriteViewController.swift */; };
+		7238D4A86434A9B830506AAF /* Pods_NerdeYesem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3310CED9E223B33336A50D /* Pods_NerdeYesem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1055049CD11872ECA29482F7 /* Pods-NerdeYesem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NerdeYesem.release.xcconfig"; path = "Target Support Files/Pods-NerdeYesem/Pods-NerdeYesem.release.xcconfig"; sourceTree = "<group>"; };
+		3C2714A024F9C6F10032F027 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		3C28ECFC24F947B000559D72 /* NerdeYesem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NerdeYesem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C28ECFF24F947B000559D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C28ED0124F947B000559D72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +65,45 @@
 		3C28ED0B24F947B600559D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C28ED0E24F947B600559D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C28ED1024F947B600559D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C59DC4524FCAB050024FF6D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3C59DC4B24FCD3370024FF6D /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		3C59DC5024FCFB6D0024FF6D /* NSNotificationName+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotificationName+Additions.swift"; sourceTree = "<group>"; };
+		3C59DC5324FD1E3B0024FF6D /* ListRestaurantsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRestaurantsTableViewCell.swift; sourceTree = "<group>"; };
+		3C59DC5424FD1E3B0024FF6D /* ListRestaurantsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRestaurantsTableViewCell.xib; sourceTree = "<group>"; };
 		3C64B83724F9967A00B3F4BF /* UIView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		3C73923E24FE10D70047591C /* NerdeYesemBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerdeYesemBaseViewController.swift; sourceTree = "<group>"; };
+		3C73924024FE1D2F0047591C /* foodImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodImage.png; sourceTree = "<group>"; };
+		3C73924224FE1E8E0047591C /* foodBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodBackgroundImage.png; sourceTree = "<group>"; };
+		3C73924424FE3EB70047591C /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		3C73924624FE609C0047591C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3C79D21A24FC1CF300F04CE0 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		3C79D21C24FC43BF00F04CE0 /* ZomatoAPIEndpointCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZomatoAPIEndpointCaller.swift; sourceTree = "<group>"; };
+		3C79D21F24FC48AA00F04CE0 /* TabsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsViewController.swift; sourceTree = "<group>"; };
+		3C79D22324FC4BD000F04CE0 /* NerdeYesemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NerdeYesemColors.swift; sourceTree = "<group>"; };
+		3C79D22724FC528200F04CE0 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		3C79D22824FC528200F04CE0 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		3C79D22924FC528200F04CE0 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3C79D22A24FC528200F04CE0 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		3C79D22B24FC528200F04CE0 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		3C79D22C24FC528200F04CE0 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		3C79D22D24FC528200F04CE0 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		3C79D22E24FC528200F04CE0 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		3C79D22F24FC528200F04CE0 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3C79D23024FC528200F04CE0 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3C79D23124FC528200F04CE0 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		3C79D23224FC528200F04CE0 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		3C79D23324FC528200F04CE0 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		3C79D23524FC528200F04CE0 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		3C79D23624FC528200F04CE0 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		3C79D23724FC528200F04CE0 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		3C79D23824FC528200F04CE0 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		3C79D23924FC528200F04CE0 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		3C79D24D24FC548D00F04CE0 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3C79D24F24FC55F500F04CE0 /* Restaurants.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Restaurants.storyboard; sourceTree = "<group>"; };
+		3C79D25324FC58E000F04CE0 /* ListRestaurantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRestaurantsViewController.swift; sourceTree = "<group>"; };
+		3C79D25524FC5A3000F04CE0 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		8FDA983009DE47F81EA23235 /* Pods-NerdeYesem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NerdeYesem.debug.xcconfig"; path = "Target Support Files/Pods-NerdeYesem/Pods-NerdeYesem.debug.xcconfig"; sourceTree = "<group>"; };
+		9D3310CED9E223B33336A50D /* Pods_NerdeYesem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NerdeYesem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +111,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7238D4A86434A9B830506AAF /* Pods_NerdeYesem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C27149F24F9B8030032F027 /* Network Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3C2714A024F9C6F10032F027 /* APIManager.swift */,
+				3C79D21C24FC43BF00F04CE0 /* ZomatoAPIEndpointCaller.swift */,
+			);
+			path = "Network Managers";
+			sourceTree = "<group>";
+		};
 		3C28ECF324F947B000559D72 = {
 			isa = PBXGroup;
 			children = (
 				3C28ECFE24F947B000559D72 /* NerdeYesem */,
 				3C28ECFD24F947B000559D72 /* Products */,
+				A27D2A7070B6B737378CF761 /* Pods */,
+				E200B6DEDC4B4CFCFDB711FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +148,8 @@
 		3C28ECFE24F947B000559D72 /* NerdeYesem */ = {
 			isa = PBXGroup;
 			children = (
+				3C59DC4324FC868F0024FF6D /* fonts */,
+				3C79D22124FC4BB200F04CE0 /* Utils */,
 				3C64B83624F994C200B3F4BF /* Media */,
 				3C28ED1A24F94C8A00559D72 /* Managers */,
 				3C28ED1924F94C7C00559D72 /* Storyboards */,
@@ -75,6 +167,8 @@
 		3C28ED1624F94C6100559D72 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3C79D25224FC582700F04CE0 /* Restaurants */,
+				3C79D25124FC581900F04CE0 /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -82,6 +176,7 @@
 		3C28ED1724F94C6800559D72 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3C79D21A24FC1CF300F04CE0 /* RestaurantModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -89,6 +184,8 @@
 		3C28ED1824F94C7200559D72 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3C59DC5224FD1DEA0024FF6D /* Cells */,
+				3C79D21E24FC488D00F04CE0 /* Views */,
 				3C64B83924F996D100B3F4BF /* Extensions */,
 			);
 			path = Common;
@@ -99,6 +196,7 @@
 			children = (
 				3C28ED0524F947B000559D72 /* Main.storyboard */,
 				3C28ED0D24F947B600559D72 /* LaunchScreen.storyboard */,
+				3C79D24F24FC55F500F04CE0 /* Restaurants.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -106,14 +204,60 @@
 		3C28ED1A24F94C8A00559D72 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				3C59DC4424FCAA710024FF6D /* Local Managers */,
+				3C27149F24F9B8030032F027 /* Network Managers */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		3C59DC4324FC868F0024FF6D /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3C79D22724FC528200F04CE0 /* Montserrat-LightItalic.ttf */,
+				3C79D22824FC528200F04CE0 /* Montserrat-Medium.ttf */,
+				3C79D22924FC528200F04CE0 /* Montserrat-BoldItalic.ttf */,
+				3C79D22A24FC528200F04CE0 /* Montserrat-Light.ttf */,
+				3C79D22B24FC528200F04CE0 /* Montserrat-ThinItalic.ttf */,
+				3C79D22C24FC528200F04CE0 /* Montserrat-ExtraLight.ttf */,
+				3C79D22D24FC528200F04CE0 /* Montserrat-Thin.ttf */,
+				3C79D22E24FC528200F04CE0 /* Montserrat-Bold.ttf */,
+				3C79D22F24FC528200F04CE0 /* Montserrat-MediumItalic.ttf */,
+				3C79D23024FC528200F04CE0 /* Montserrat-BlackItalic.ttf */,
+				3C79D23124FC528200F04CE0 /* Montserrat-SemiBold.ttf */,
+				3C79D23224FC528200F04CE0 /* Montserrat-ExtraLightItalic.ttf */,
+				3C79D23324FC528200F04CE0 /* Montserrat-ExtraBold.ttf */,
+				3C79D23524FC528200F04CE0 /* Montserrat-Black.ttf */,
+				3C79D23624FC528200F04CE0 /* Montserrat-Regular.ttf */,
+				3C79D23724FC528200F04CE0 /* Montserrat-Italic.ttf */,
+				3C79D23824FC528200F04CE0 /* Montserrat-SemiBoldItalic.ttf */,
+				3C79D23924FC528200F04CE0 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		3C59DC4424FCAA710024FF6D /* Local Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3C59DC4524FCAB050024FF6D /* LocationManager.swift */,
+			);
+			path = "Local Managers";
+			sourceTree = "<group>";
+		};
+		3C59DC5224FD1DEA0024FF6D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3C59DC5324FD1E3B0024FF6D /* ListRestaurantsTableViewCell.swift */,
+				3C59DC5424FD1E3B0024FF6D /* ListRestaurantsTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		3C64B83624F994C200B3F4BF /* Media */ = {
 			isa = PBXGroup;
 			children = (
 				3C28ED0B24F947B600559D72 /* Assets.xcassets */,
+				3C73924224FE1E8E0047591C /* foodBackgroundImage.png */,
+				3C73924024FE1D2F0047591C /* foodImage.png */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -122,8 +266,63 @@
 			isa = PBXGroup;
 			children = (
 				3C64B83724F9967A00B3F4BF /* UIView+Additions.swift */,
+				3C59DC4B24FCD3370024FF6D /* UIFont.swift */,
+				3C59DC5024FCFB6D0024FF6D /* NSNotificationName+Additions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3C79D21E24FC488D00F04CE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3C79D21F24FC48AA00F04CE0 /* TabsViewController.swift */,
+				3C73923E24FE10D70047591C /* NerdeYesemBaseViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C79D22124FC4BB200F04CE0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3C79D22324FC4BD000F04CE0 /* NerdeYesemColors.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3C79D25124FC581900F04CE0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3C79D24D24FC548D00F04CE0 /* HomeViewController.swift */,
+				3C73924624FE609C0047591C /* LoginViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3C79D25224FC582700F04CE0 /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				3C79D25324FC58E000F04CE0 /* ListRestaurantsViewController.swift */,
+				3C79D25524FC5A3000F04CE0 /* FavoriteViewController.swift */,
+				3C73924424FE3EB70047591C /* RestaurantDetailViewController.swift */,
+			);
+			path = Restaurants;
+			sourceTree = "<group>";
+		};
+		A27D2A7070B6B737378CF761 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FDA983009DE47F81EA23235 /* Pods-NerdeYesem.debug.xcconfig */,
+				1055049CD11872ECA29482F7 /* Pods-NerdeYesem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E200B6DEDC4B4CFCFDB711FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D3310CED9E223B33336A50D /* Pods_NerdeYesem.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,9 +332,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C28ED1324F947B600559D72 /* Build configuration list for PBXNativeTarget "NerdeYesem" */;
 			buildPhases = (
+				509B026A277575E92080A0B0 /* [CP] Check Pods Manifest.lock */,
 				3C28ECF824F947B000559D72 /* Sources */,
 				3C28ECF924F947B000559D72 /* Frameworks */,
 				3C28ECFA24F947B000559D72 /* Resources */,
+				46B780762329F2F531A9A919 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,23 +385,102 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C79D24B24FC528200F04CE0 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				3C79D24024FC528200F04CE0 /* Montserrat-Thin.ttf in Resources */,
+				3C79D23D24FC528200F04CE0 /* Montserrat-Light.ttf in Resources */,
+				3C79D25024FC55F500F04CE0 /* Restaurants.storyboard in Resources */,
+				3C79D24524FC528200F04CE0 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				3C79D23C24FC528200F04CE0 /* Montserrat-BoldItalic.ttf in Resources */,
+				3C79D23E24FC528200F04CE0 /* Montserrat-ThinItalic.ttf in Resources */,
+				3C79D24624FC528200F04CE0 /* Montserrat-ExtraBold.ttf in Resources */,
+				3C79D24924FC528200F04CE0 /* Montserrat-Regular.ttf in Resources */,
+				3C79D23A24FC528200F04CE0 /* Montserrat-LightItalic.ttf in Resources */,
+				3C79D23F24FC528200F04CE0 /* Montserrat-ExtraLight.ttf in Resources */,
+				3C79D23B24FC528200F04CE0 /* Montserrat-Medium.ttf in Resources */,
 				3C28ED0F24F947B600559D72 /* LaunchScreen.storyboard in Resources */,
 				3C28ED0C24F947B600559D72 /* Assets.xcassets in Resources */,
+				3C79D24324FC528200F04CE0 /* Montserrat-BlackItalic.ttf in Resources */,
+				3C79D24424FC528200F04CE0 /* Montserrat-SemiBold.ttf in Resources */,
+				3C79D24A24FC528200F04CE0 /* Montserrat-Italic.ttf in Resources */,
+				3C79D24124FC528200F04CE0 /* Montserrat-Bold.ttf in Resources */,
+				3C59DC5624FD1E3B0024FF6D /* ListRestaurantsTableViewCell.xib in Resources */,
+				3C73924124FE1D2F0047591C /* foodImage.png in Resources */,
+				3C79D24224FC528200F04CE0 /* Montserrat-MediumItalic.ttf in Resources */,
 				3C28ED0724F947B000559D72 /* Main.storyboard in Resources */,
+				3C79D24824FC528200F04CE0 /* Montserrat-Black.ttf in Resources */,
+				3C73924324FE1E8E0047591C /* foodBackgroundImage.png in Resources */,
+				3C79D24C24FC528200F04CE0 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46B780762329F2F531A9A919 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NerdeYesem/Pods-NerdeYesem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NerdeYesem/Pods-NerdeYesem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NerdeYesem/Pods-NerdeYesem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		509B026A277575E92080A0B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NerdeYesem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3C28ECF824F947B000559D72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C79D25424FC58E000F04CE0 /* ListRestaurantsViewController.swift in Sources */,
+				3C79D21D24FC43BF00F04CE0 /* ZomatoAPIEndpointCaller.swift in Sources */,
+				3C59DC5124FCFB6E0024FF6D /* NSNotificationName+Additions.swift in Sources */,
 				3C64B83824F9967A00B3F4BF /* UIView+Additions.swift in Sources */,
+				3C73924724FE609C0047591C /* LoginViewController.swift in Sources */,
 				3C28ED0A24F947B000559D72 /* NerdeYesem.xcdatamodeld in Sources */,
+				3C2714A124F9C6F10032F027 /* APIManager.swift in Sources */,
+				3C79D22024FC48AA00F04CE0 /* TabsViewController.swift in Sources */,
+				3C79D24E24FC548D00F04CE0 /* HomeViewController.swift in Sources */,
+				3C59DC5524FD1E3B0024FF6D /* ListRestaurantsTableViewCell.swift in Sources */,
 				3C28ED0024F947B000559D72 /* AppDelegate.swift in Sources */,
+				3C79D22424FC4BD000F04CE0 /* NerdeYesemColors.swift in Sources */,
+				3C79D21B24FC1CF300F04CE0 /* RestaurantModel.swift in Sources */,
+				3C59DC4C24FCD3370024FF6D /* UIFont.swift in Sources */,
+				3C73923F24FE10D70047591C /* NerdeYesemBaseViewController.swift in Sources */,
+				3C79D25624FC5A3000F04CE0 /* FavoriteViewController.swift in Sources */,
 				3C28ED0224F947B000559D72 /* SceneDelegate.swift in Sources */,
+				3C73924524FE3EB70047591C /* RestaurantDetailViewController.swift in Sources */,
+				3C59DC4624FCAB050024FF6D /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +622,7 @@
 		};
 		3C28ED1424F947B600559D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FDA983009DE47F81EA23235 /* Pods-NerdeYesem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -360,6 +641,7 @@
 		};
 		3C28ED1524F947B600559D72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1055049CD11872ECA29482F7 /* Pods-NerdeYesem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
